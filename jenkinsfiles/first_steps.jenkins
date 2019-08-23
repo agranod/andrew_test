@@ -20,6 +20,10 @@ pipeline {
             steps {
                 sh 'ssh root@35.156.13.183 \'uptime\''
             }
+         stage("Third step") {
+            steps {
+                sh 'ssh root@35.156.13.183 \'ifconfig\''
+            }
         }
     }
 }
