@@ -1,5 +1,5 @@
 #!groovy
-// Check ub1 properties
+// Check 35.156.13.183 properties
 properties([disableConcurrentBuilds()])
 
 pipeline {
@@ -26,4 +26,5 @@ pipeline {
             }
         }
     }
+  }
 }
